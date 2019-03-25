@@ -20,7 +20,7 @@ while run:
     elif not status:
         naughty.append(name)
     else:
-        print(satus)
+        print(status)
 
     print("Naughty:", naughty)
     print("Nice:", nice)

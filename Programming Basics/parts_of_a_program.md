@@ -19,6 +19,8 @@ Data Types
 - String
     - Immutable
     - Good for unchanging strings of characters
+
+Structures
 - Set
     - Mutable
     - Unordered
@@ -32,8 +34,9 @@ Data Types
     - Mutable
     - Ordered
     - Good for… well… lists
-- Frozen Set
-    - Like a set but immutable
+- Tuple
+    - Like a list but immutable
+
 
 Function
 - Preforms some sort of action

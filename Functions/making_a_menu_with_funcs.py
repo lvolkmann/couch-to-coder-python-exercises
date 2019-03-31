@@ -1,3 +1,9 @@
+"""
+Complete the program below by defining the following functions stubs
+Perform function calls in the menu to use those definitions
+* Try to define the functions so they take advantage of user data to add some personality
+"""
+
 import time
 import random
 

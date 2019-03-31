@@ -1,4 +1,12 @@
+"""
+Define functions for the following:
+redact_after_count(string, int)->string
+redact_after_symbol(string, char)-string
+numeric_scraper(string)->list
+"""
+
 def redact_after_count(text :str, count:int) ->str:
+    """Replaces all characters after a certain count with XXXXX"""
     words = text.split()
     word_count = len(words)
     first_half = ""
@@ -12,13 +20,14 @@ def redact_after_count(text :str, count:int) ->str:
     return first_half + second_half
 
 def redact_after_symbol(text:str, symbol:str) ->str:
-
+    """Replaces all characters after a certain symbol appears with XXXXX"""
     r_start = text.find(symbol)
     r_len = len(text) - r_start
     to_redact = text[r_start:]
     return text.replace(to_redact, "X"*r_len)
 
 def numeric_scraper(text:str) -> list:
+    """Returns a list of all numbers in a given string ex "a11b2c333" -> [11, 2, 333]"""
 
     num_lst = []
 
@@ -46,9 +55,3 @@ def numeric_scraper(text:str) -> list:
         num_lst.append(int(cur_num))
         
     return num_lst
-
-
-            
-            
-        
-        

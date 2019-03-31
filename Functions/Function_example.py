@@ -1,8 +1,8 @@
 def my_func(n: int, out: str) -> int:
-"""Pass in integer and string. 
-Function will output the string n times.
-Function returns n incremented by 1.
-"""
+	"""Pass in integer and string. 
+	Function will output the string n times.
+	Function returns n incremented by 1.
+	"""
 	print(n*out)
 	return n + 1
 

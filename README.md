@@ -5,5 +5,5 @@
 3. [Conditional Statements](Conditional%20Statements)
 4. [Boolean Expressions](Boolean%20Expressions)
 5. [Loops](Loops)
-6. [Strings](Strings)
-7. [Functions](Functions)
+6. [Functions](Functions)
+7. [Strings](Strings)

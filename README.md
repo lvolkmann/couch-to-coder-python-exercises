@@ -4,7 +4,7 @@ Let's learn Python!
 
 ## What's This All About?
 
-This repository shall serve as a community tool for anyone that is looking to learn and practice Python skills.
+This repository shall serve as a community tool for anyone that is looking to learn and practice Python skills. At the University of Missouri-Kansas City, I was a supplemental instructor for an entry-level programming course. This position required me to create various exercises and lesson plans to be executed alongside the main course. Rather than let these exercises succumb to data decay on some forgotten hard drive, I decided to make them publicly available for all.
 
 ## How Does It Work?
 

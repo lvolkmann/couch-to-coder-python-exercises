@@ -6,7 +6,7 @@ Let's learn Python!
 
 This repository shall serve as a community tool for anyone that is looking to learn and practice Python skills.
 
-## How's Does It Work?
+## How Does It Work?
 
 Following the table of contents below, the user should work through each exercise in a given topic before moving to the next. There are two types of file the user may encounter: .md (Markdown) and .py (Python). The markdown files are more conceptual in nature. The python files are for the actual implementation of the these concepts!
 

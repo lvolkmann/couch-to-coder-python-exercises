@@ -1,5 +1,3 @@
-#Week 16 Session 1
-
 def get_area_rect(length, width):
         """Returns area of rectangle"""
         

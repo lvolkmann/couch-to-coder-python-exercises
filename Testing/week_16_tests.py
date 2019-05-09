@@ -1,4 +1,3 @@
-#Week 16 Session 1 Tests
 import week_16_code as main
 import unittest
 

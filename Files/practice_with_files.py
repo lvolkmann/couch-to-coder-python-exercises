@@ -1,5 +1,5 @@
 #Practice with reading files!
-f = open("C:\\Users\\Landon\\OneDrive\\UMKC\\Fall 2018\\SI\\Code\\EmployeeData.txt")
+f = open("EmployeeData.csv")
 header = f.readline()
 
 employeeList = f.readlines()

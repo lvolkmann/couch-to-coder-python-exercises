@@ -12,7 +12,8 @@ A class, Item
 """
 
 class shoppingCart(object):
-    pass
+    def printReceipt(self):
+        pass
 class Item(object):
     pass
 

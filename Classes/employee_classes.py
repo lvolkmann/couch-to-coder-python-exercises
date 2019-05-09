@@ -72,7 +72,7 @@ print(i2)
 e1 + i1
 i2 + e1
 
-print("HELO")
+print("HELLO")
 print(i2)
 
 print(i1)

@@ -1,3 +1,11 @@
+"""
+Person Class:
+String representation: "Hair Color  & Eye Color"
+Person1 + Person2 = Person3
+    Where Person 3 has a 50% chance of
+    'inheriting' eye and hair color from either parent
+Keeps Track of Parent Objects
+"""
 import random
 
 class Person(object):

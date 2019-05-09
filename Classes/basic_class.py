@@ -1,3 +1,9 @@
+"""
+Write a class that contains variables name, age, job, and wage
+Write an init such that job defaults to student and wage defaults to 8
+Define a printMe method to output variables "name : age : job"
+Define a calcPay method that accepts integer float hoursWorked and returns pay
+""" 
 class me:
 
     def __init__(self, xname, xage, jobx = "Student", wagex = 8):

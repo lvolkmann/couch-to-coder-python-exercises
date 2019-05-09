@@ -1,3 +1,9 @@
+"""
+Write two child classes, square and circle, that inherit from the given class shape
+    - Have them inherit all the Shape member variables
+    - Write get_area and get_perimeter methods unique to each child class
+    - Override the __str__ and __repr__ methods to include area and perimeter
+"""
 import math
 
 class Shape(object):

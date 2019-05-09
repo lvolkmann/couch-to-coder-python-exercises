@@ -1,3 +1,17 @@
+"""
+Create a class car with the following
+    - A model name
+    - The amount of gas left
+    - Gas capacity
+    - miles per gallon
+    - its x position
+Methods
+    - __repr__ and __str__ "Name at pos x with y gas left"
+    - fill_up to increase gas to capacity
+    - go_for_x_gallons(x) that changes position of car based on mpg and current gas
+    - go_until_empty()
+"""
+
 class car(object):
     def __init__(self, model = "", gas = 0, gas_cap = 0, mpg = 0, pos = 0):
         self.model = model
@@ -29,9 +43,3 @@ class car(object):
     def go_until_empty(self):
         self.pos = self.mpg * self.gas
         self.gas = 0
-             
-        
-        
-        
-        
-    

@@ -1,3 +1,8 @@
+"""
+Implement the program below using classes instead!
+You should have a classes Turtle and Race
+Bonus: add a method to check to see if two turtles are neck and neck (tied) at any point during the race
+"""
 import random
 import time
 turtle_names = ["Lenny", "George", "Ken", "Dylan", "Ralph"]

@@ -12,8 +12,7 @@ A class, Item
 """
 
 class shoppingCart(object):
-    def printReceipt(self):
-        pass
+    pass
 class Item(object):
     pass
 
@@ -30,6 +29,7 @@ me - Item("A Tire?", 0, 0)
 me.printReceipt()
 
 """
+EXPECTED OUTPUT
 >>>
 Empty Calories		2	0.79
 Serious Mistake		2	0.81

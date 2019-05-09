@@ -1,3 +1,9 @@
+"""
+Given class Employee, create two child classes FullTime and Intern
+Design the classes such that Interns may be assigned supervivsors (FullTime instances)
+Overload the + operator to assign an Intern to a FullTime
+Also implement fire, give_raise, and showInterns methods where applicable
+"""
 class Employee(object):
 
         ID_FACTORY = 0

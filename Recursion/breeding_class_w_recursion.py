@@ -1,3 +1,8 @@
+"""
+Write a definition for twenty_three_and_me such that it prints the family
+	- Accomplish this using the outputGeneratio method and recursion
+"""
+
 import random
 
 class AlphaParent(object):
@@ -57,38 +62,3 @@ if __name__ == "__main__":
     c1.twenty_three_and_me()
     print()
     print(c1)
-
-
-"""
-Auto
-FIXME
-
-hairOp = ["Burnette", "Blonde", "Strawberry Blonde", "Dirty Blonde", "Red"]
-eyesOp = ["Blue", "Green", "Brown", "Hazel"]
-
-generations = 3
-
-familyLst = []
-
-for _ in range(2**generations):
-    familyLst.append(AlphaParent(random.choice(eyesOp),random.choice(hairOp)))
-
-def breed(generations, family):
-    for gen in range(generations,0,-1):
-        offSet = 2**gen
-        for pair in range(2**gen // 2):
-            print(gen, offSet, pair)
-            family.append(family[offSet + (2 * pair)] + family[offSet + (2* pair) + 1])
-
-breed(generations, familyLst)
-
-for mem in familyLst:
-    print(mem)
-
-familyLst[-1].twenty_three_and_me()
-
-"""
-
-
-
-

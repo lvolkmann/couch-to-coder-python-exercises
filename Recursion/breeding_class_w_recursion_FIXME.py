@@ -1,3 +1,8 @@
+"""
+Write a definition for twenty_three_and_me such that it prints the family
+	- Accomplish this using the outputGeneratio method and recursion
+"""
+
 import random
 
 class AlphaParent(object):

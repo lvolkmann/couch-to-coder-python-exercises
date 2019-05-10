@@ -1,3 +1,8 @@
+"""
+Fill in the methods below to get this battleship program working
+HINT: You may want to use exceptions when checking for bounds of the board
+"""
+
 import random
 
 def display_board_hits(board, hit):

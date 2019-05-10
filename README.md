@@ -8,9 +8,13 @@ This repository shall serve as a community tool for anyone that is looking to le
 
 ## How Does It Work?
 
-Following the table of contents below, the user should work through each exercise in a given topic before moving to the next. There are two types of file the user may encounter: .md (Markdown) and .py (Python). The markdown files are more conceptual in nature. The python files are for the actual implementation of the these concepts!
+Following the table of contents below, the user should work through each exercise in a given topic (some jumping around may be necessary). There are two types of file the user may encounter: .md (Markdown) and .py (Python). The markdown files are more conceptual in nature. The python files are for the actual implementation of the these concepts!
 
 Each exercise has two associated files: *filename* and *filename*_FIXME. **Always start with the FIXME file!** This file contains the problem, and the non-FIXME file under the same name contains the solution.
+
+## How to Contribute?
+
+I'm very much hoping this repository ages like a fine wine. If you have any suggestions to make it better or exercises of your own you'd like to publish, make a pull request!
 
 ## Table of Contents
 
@@ -21,3 +25,12 @@ Each exercise has two associated files: *filename* and *filename*_FIXME. **Alway
 5. [Loops](Loops)
 6. [Functions](Functions)
 7. [Strings](Strings)
+8. [Lists](Lists)
+9. [Dictionaries](Dictionaries)
+10. [Files](Files)
+11. [Exceptions](Exceptions)
+12. [Classes](Classes)
+13. [Inheritance](Inheritance)
+14. [Recursion](Recursion)
+15. [Testing](Testing)
+16. [Review](Review)

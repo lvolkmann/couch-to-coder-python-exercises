@@ -1,6 +1,9 @@
+"""
+Create docstring tests for the following functions
+"""
 import doctest
 
-#Short doctest exercises
+# Example
 def get_area_rect(length, width):
         """Returns area of rectangle
         >>> get_area_rect(5 , 5)
@@ -19,7 +22,7 @@ def get_area_rect(length, width):
                 raise ValueError
         return length * width
 
-
+# Your turn
 def validate_input(x):
         """Validates that input give is between 1 and 10
         >>> validate_input(5)

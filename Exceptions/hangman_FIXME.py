@@ -1,3 +1,8 @@
+"""
+Define the functions below to get this hangman game working
+Make sure to use specific error handling with get_guess()
+"""
+
 import urllib.request as url
 import random as rand
 
